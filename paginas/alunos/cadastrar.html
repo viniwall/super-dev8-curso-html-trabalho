@@ -9,65 +9,66 @@
 
 <body>
     <h1>Cadastrar aluno</h1>
+    <form action="#" method="get">
+        <div>
+            <label for="campo-nome">Nome</label>
+        </div>
 
-    <div>
-        <label for="campo-nome">Nome</label>
-    </div>
+        <div><input id="campo-nome" type="text">
+        </div>
 
-    <div><input id="campo-nome" type="text">
-    </div>
+        <div>
+            <label for="campo-data-nasc">data de nascimento</label>
+        </div>
 
-    <div>
-        <label for="campo-data-nasc">data de nascimento</label>
-    </div>
+        <div><input id="campo-data-nasc" type="date">
+        </div>
 
-    <div><input id="campo-data-nasc" type="date">
-    </div>
+        <div>
+            <span>foto</span>
+            <input type="file">
+        </div>
 
-    <div>
-        <span>foto</span>
-        <input type="file">
-    </div>
+        <label for="campo-serie">serie</label>
+        <select id="campo-serie" name="serie">
+            <option disabled>serie</option>
+            <option value="1º-Ano">1º Ano</option>
+            <option value="2º-Ano">2º Ano</option>
+            <option value="3º-Ano">3º Ano</option>
+            <option value="4º-Ano">4º Ano</option>
+            <option value="5º-Ano">5º Ano</option>
+            <option value="6º-Ano">6º Ano</option>
+            <option value="7º-Ano">7º Ano</option>
+            <option value="8º-Ano">8º Ano</option>
+            <option value="9º-Ano">9º Ano</option>
+        </select>
 
-    <label for="campo-serie">serie</label>
-    <select id="campo-serie" name="serie">
-        <option disabled>serie</option>
-        <option value="1º-Ano">1º Ano</option>
-        <option value="2º-Ano">2º Ano</option>
-        <option value="3º-Ano">3º Ano</option>
-        <option value="4º-Ano">4º Ano</option>
-        <option value="5º-Ano">5º Ano</option>
-        <option value="6º-Ano">6º Ano</option>
-        <option value="7º-Ano">7º Ano</option>
-        <option value="8º-Ano">8º Ano</option>
-        <option value="9º-Ano">9º Ano</option>
-    </select>
+        <div>
+            <label for="campo-whatsapp">Numero do whatsapp</label>
+        </div>
 
-    <div>
-        <label for="campo-whatsapp">Numero do whatsapp</label>
-    </div>
+        <div><input id="campo-whatsapp" type="text" minlength="13">
+        </div>
 
-    <div><input id="campo-whatsapp" type="text" minlength="13">
-    </div>
+        <div>
+            <label for="campo-login">login</label>
+        </div>
 
-    <div>
-        <label for="campo-login">login</label>
-    </div>
+        <div><input id="campo-login" type="text">
+        </div>
 
-    <div><input id="campo-login" type="text">
-    </div>
+        <div>
+            <label for="campo-senha">senha</label>
+        </div>
 
-    <div>
-        <label for="campo-senha">senha</label>
-    </div>
-
-    <div><input id="campo-senha" type="password">
-    </div>
-
-
+        <div><input id="campo-senha" type="password">
+        </div>
 
 
-    <button type="submit">Cadastrar</button> <a href="index.html">alunos</a> <a href="../../index.html">voltar</a>
+
+
+        <button type="submit">Cadastrar</button> <a href="index.html">alunos</a> <a href="../../index.html">voltar</a>
+    </form>
 </body>
 
 </html>

@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1>cadastrar usuario:</h1>
+
+    <form action="#" method="get">
+
+        <div>
+            <label for="campo-nome">Nome</label>
+        </div>
+
+        <div>
+            <input id="campo-nome" type="text">
+        </div>
+
+        <div>
+            <label for="campo-sobrenome">sobrenome</label>
+        </div>
+
+        <div>
+            <input id="campo-sobrenome" type="text">
+        </div>
+
+        <div>
+            <label for="campo-cpf">Numero do CPF</label>
+        </div>
+
+        <div>
+            <input id="campo-cpf" type="text" minlength="13">
+        </div>
+
+        <label for="campo-cargo">Cargo</label>
+        <select id="campo-cargo" name="cargo">
+            <option value="coordenador">Coordenador</option>
+            <option value="aluno">Aluno</option>
+            <option value="professor">Professor</option>
+        </select>
+
+        <div>
+            <label for="justificativa">por que deseja se cadastrar?</label>
+        </div>
+
+        <div>
+            <textarea name="justificativa" id=""></textarea>
+        </div>
+
+
+        <div>
+            <label for="campo-login">login/e-mail</label>
+        </div>
+
+        <div>
+            <input id="campo-login" type="text">
+        </div>
+
+        <div>
+            <label for="campo-senha">senha</label>
+        </div>
+
+        <div>
+            <input id="campo-senha" type="password">
+        </div>
+
+
+        <button type="submit">Enviar</button>
+
+
+
+
+    </form>
 </body>
+
 </html>
