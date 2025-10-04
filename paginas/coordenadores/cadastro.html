@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Coordenadores</title>
+</head>
+<body>
+    <a href="../../index.html">Voltar</a>
+    <a href="index.html">Coordenadores</a>
+
+    <form>
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" id="campo-nome" name="nome" required placeholder="Fulano de Tal">
+        </div>
+
+        <div>
+            <label for="campo-cnpj">CNPJ</label>
+            <input type="text" id="campo-cnpj" name="cnpj" required placeholder="12.345.678/9000-12" maxlength="18" minlength="14">
+        </div>
+
+        <div>
+            <label for="campo-imagem">Imagem</label>
+            <input type="file" id="campo-imagem" name="imagem" required>
+        </div>
+
+        <div>
+            <label for="campo-chave-pix">Chave PIX</label>
+            <input type="text" id="campo-chave-pix" name="chave-pix" required placeholder="76405459809">
+        </div>
+
+        <div>
+            <label for="campo-whatsapp">Whatsapp</label>
+            <input type="text" id="campo-whatsapp" name="whatsapp" required placeholder="+55(47)12345-6789" maxlength="17" minlength="13">
+        </div>
+
+        <div>
+            <label for="campo-cargo">Cargo</label>
+            <select name="cargo" id="campo-cargo">
+                <option value="junior">Júnior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Sênior</option>
+            </select>
+        </div>
+
+        <button type="submit">Cadastrar Coordenador</button>
+    </form>
+</body>
+</html>
